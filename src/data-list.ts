@@ -1,11 +1,11 @@
-const reviews = [
+export const reviews = [
     {
         id: 1,
         image:
             'https://course-api.com/images/people/person-1.jpeg',
         name: 'Susan Smith',
         job: 'Web Developer',
-        description: 
+        info: 
             "I'm baby meggings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
     },
     {
@@ -30,6 +30,7 @@ const reviews = [
         id: 4,
         image:
             'https://course-api.com/images/people/person-3.jpeg',
+        name: 'Bill Anderson',
         job: 'The Boss',
         info:
             "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic."
